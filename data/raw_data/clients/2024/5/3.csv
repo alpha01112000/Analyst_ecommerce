@@ -1,0 +1,16 @@
+date,customer_id,firstname,lastname,email
+2024-05-03,2,Firstname_2,Lastname_2,user2@example.com
+2024-05-03,3,Firstname_3,Lastname_3,user3@example.com
+2024-05-03,4,Firstname_4,Lastname_4,user4@example.com
+2024-05-03,6,Firstname_6,Lastname_6,user6@example.com
+2024-05-03,8,Firstname_8,Lastname_8,user8@example.com
+2024-05-03,11,Firstname_11,Lastname_11,user11@example.com
+2024-05-03,13,Firstname_13,Lastname_13,user13@example.com
+2024-05-03,14,Firstname_14,Lastname_14,user14@example.com
+2024-05-03,15,Firstname_15,Lastname_15,user15@example.com
+2024-05-03,16,Firstname_16,Lastname_16,user16@example.com
+2024-05-03,17,Firstname_17,Lastname_17,user17@example.com
+2024-05-03,18,Firstname_18,Lastname_18,user18@example.com
+2024-05-03,20,Firstname_20,Lastname_20,user20@example.com
+2024-05-03,22,Firstname_22,Lastname_22,user22@example.com
+2024-05-03,24,Firstname_24,Lastname_24,user24@example.com

@@ -2,7 +2,6 @@ massive-glyph-323908-5809907c52ef.json
 Pipfile
 airflow.cfg
 airflow.db
-data/
 simple_auth_manager_passwords.json.generated
 # Ignorer les credentials
 *.json

@@ -1,0 +1,7 @@
+order_id,order_date,customer_id,customer_name,product_id,product_name,quantity,price
+13,2024-05-03,25,Customer_25,14,Product_14,4,43.52
+14,2024-05-03,22,Customer_22,1,Product_1,4,83.72
+15,2024-05-03,12,Customer_12,4,Product_4,5,8.64
+16,2024-05-03,11,Customer_11,10,Product_10,2,30.51
+17,2024-05-03,30,Customer_30,15,Product_15,1,13.98
+18,2024-05-03,9,Customer_9,17,Product_17,2,10.14
