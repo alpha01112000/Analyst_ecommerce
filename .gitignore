@@ -4,3 +4,22 @@ airflow.cfg
 airflow.db
 data/
 simple_auth_manager_passwords.json.generated
+# Ignorer les credentials
+*.json
+# Ignorer l'environnement virtuel
+venv/
+ENV/
+.venv/
+
+# Ignorer les fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db

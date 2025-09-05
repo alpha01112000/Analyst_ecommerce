@@ -128,9 +128,13 @@ def extract_orders(date: datetime, db_path: str = "ecommerce_orders_may2024.db",
     if df.shape[0] > 0:
         os.makedirs(f"{RAW_DATA_DIR}/orders/{date.year}/{date.month}", exist_ok=True)
         local_path = os.path.join(f"{RAW_DATA_DIR}/orders/{date.year}/{date.month}", f"{date.day}.csv")
-
-
+        df.to_csv(local_path, index=False)
+        print(f"Fichier orders sauvegardé dans : {local_path}")
+    else:
+        print(f"Aucun fichier orders trouvé pour la date : {date_str}")
 
 if __name__=="__main__":
     
-    extract_orders(datetime.strptime("2024-05-10", "%Y-%m-%d"))
+    #extract_orders(datetime.strptime("2024-05-10", "%Y-%m-%d"))
+   extract_clients(datetime.strptime("2024-05-10", "%Y-%m-%d"))
+    #extract_products(datetime.strptime("2024-05-03", "%Y-%m-%d"))
